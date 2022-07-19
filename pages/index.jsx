@@ -57,8 +57,8 @@ export default function Home() {
         <div className="item-center flex flex-col text-center text-white mt-72 px-32 mobile:px-8">
           <div className="text-6xl font-normal text-center">ฟีเจอร์</div>
           <div className="flex big-device:flex-row flex-col items-center justify-center  big-device:items-start medium-tablet:gap-32 my-24 gap-64">
-            <Feature image={"/features/feat1.png"} title={"พื้นที่สำหรับหาความรู้ด้วยตนเอง"} detail={['คุณสามารถเข้ามาศึกษาเนื้อหาความรู้', 'ที่ถูกรวบรวมไว้ภายในเว็ปไซต์ได้', 'รวมถึงสามารถแลกเปลี่ยนความรู้และ', 'พูดคุยกับคนที่มีความสนใจเหมือนกันได้']}/>
-            <Feature image={"/features/feat2.png"} title={"ข่าวสารโอกาสทางการศึกษา"} detail={['คุณสามารถเข้ามาค้นหาโอกาส', 'ทางการศึกษาต่างๆ ที่เราได้ทำการ', 'รวบรวมเอาไว้ได้']}/>
+            <Feature image={"/features/feat1.png"}  title={"พื้นที่สำหรับหาความรู้ด้วยตนเอง"} detail={['คุณสามารถเข้ามาศึกษาเนื้อหาความรู้', 'ที่ถูกรวบรวมไว้ภายในเว็ปไซต์ได้', 'รวมถึงสามารถแลกเปลี่ยนความรู้และ', 'พูดคุยกับคนที่มีความสนใจเหมือนกันได้']}/>
+            <Feature image={"/features/feat2homer.png"} subtitle={"เปิดให้บริการแล้วตอนนี้ !"} title={"ตามหาผู้ช่วยทำงาน"} detail={['คุณสามารถเข้ามาตามหาผู้ช่วยทำงาน', 'ตามความต้องการของคุณได้ เพื่อช่วย', 'ลดภาระงานของคุณ ทำให้คุณมีเวลามากขึ้น', 'ในการใช้มันไปกับสิ่งที่คุณชื่นชอบจริงๆ']}/>
             <Feature image={"/features/feat3.png"} title={"ตามหาที่เรียนพิเศษ"} detail={['คุณสามารถเข้ามาค้นหาที่เรียนพิเศษ', 'ที่เหมาะสมกับความต้องการของคุณได้']}/>
           </div>
         </div>
